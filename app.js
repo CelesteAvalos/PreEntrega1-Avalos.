@@ -9,6 +9,11 @@ let cantidadHora;
 let total = 0; 
 let recibo;
 let opcion;
+//let total;
+
+function total (total, cantidadHora, valorHora) {
+     return total + cantidadHora* valorHora
+}
 
 alert(`Pagos a trabajadores!!!`);
 nombreUser = prompt("Nombre De Encargado");
