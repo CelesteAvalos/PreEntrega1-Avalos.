@@ -10,9 +10,14 @@ let total = 0;
 let recibo;
 let opcion;
 
-function totalrecibo (total, cantidadHora, valorHora) {
+function saludar() {
+    alert ("Hola Bienvenido al Sector de pagos!")
+}
+
+function totalRecibo (total, cantidadHora, valorHora) {
      return total + cantidadHora * valorHora
 }
+saludar ();
 
 alert(`Pagos a trabajadores!!!`);
 nombreUser = prompt("Nombre De Encargado");
@@ -40,6 +45,8 @@ do {
 } while(opcion == `si`);
 
 alert(`${recibo} El total de sueldo a liquidar ${nombreUser} es de: $${total}`);
+
+totalRecibo (total, cantidadHora, valorHora);
 
 
 alert("Adios\n\n\n hasta la proxima semana\n\n")
