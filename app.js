@@ -37,7 +37,8 @@ do {
      while (cantidadHora <= 0) {
         cantidadHora = parseInt(prompt(`Cantidad invalida, ingrese otra`));
      }
-     recibo = recibo + `nombre del empleado: ${nombreEmpleado} \n valor de la hora: $${valorHora} \n cantidad de horas: ${cantidadHora} \n subtotal: $${cantidadHora * valorHora} \n\n`
+     recibo = recibo + `nombre del empleado: ${nombreEmpleado} \n valor de la hora: $${valorHora} 
+     \n cantidad de horas: ${cantidadHora} \n subtotal: $${cantidadHora * valorHora} \n\n`
      total = total + cantidadHora * valorHora;
 
      opcion = prompt("agregar otro Empleado?");
